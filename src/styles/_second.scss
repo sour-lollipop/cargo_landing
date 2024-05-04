@@ -1,0 +1,26 @@
+.second{
+    font-family: 'Montserrat-Light';
+    height: 750px;
+    width: 100%;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 700px){
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        // background-color: aqua;
+
+    }
+}
+.calc_img{
+    width: 578px;
+    height: 655px;
+    @media (max-width: 700px){
+        width: 350px;
+        height: 420px;
+    }
+}
